@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.io.IOException;
 
-public class aumento_de_salario_1048 {
+public class _1048 {
     public static void main(String[] args) throws IOException 
     {
         Scanner sc=new Scanner(System.in);
