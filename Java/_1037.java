@@ -1,7 +1,7 @@
 import java.io.IOException;
 import java.util.Scanner;
 
-public class intervalo_1037
+public class _1037
 {
  
     public static void main(String[] args) throws IOException 
