@@ -11,11 +11,11 @@ public class _1035 {
         
         if (b > c && d > a && c + d > a + b && c > 0 && d > 0)
         {
-            System.out.printf("Valores aceitos");
+            System.out.printf("Valores aceitos\n");
         }
         else
         {
-            System.out.printf("Valores nao aceitos");
+            System.out.printf("Valores nao aceitos\n");
         }
         
     }
