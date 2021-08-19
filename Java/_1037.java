@@ -12,23 +12,23 @@ public class _1037
 
         if (x <= 100 && x > 75)
         {
-            System.out.printf("Intervalo (75, 100]");
+            System.out.printf("Intervalo (75, 100]\n");
         }
         else if (x <= 75 && x > 50)
         {
-            System.out.printf("Intervalo (50, 75]");
+            System.out.printf("Intervalo (50, 75]\n");
         }
         else if (x <= 50 && x > 25)
         {
-            System.out.printf("Intervalo (25, 50]");
+            System.out.printf("Intervalo (25, 50]\n");
         }
-        else if (x <= 25 && x > 0)
+        else if (x <= 25 && x >= 0)
         {
-            System.out.printf("Intervalo (0, 25]");
+            System.out.printf("Intervalo [0, 25]\n");
         }
         else
         {
-            System.out.printf("Fora do intervalo");
+            System.out.printf("Fora de intervalo\n");
         }
     }
  
