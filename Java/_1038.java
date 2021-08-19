@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.io.IOException;
 
-public class lanche_1038 
+public class e_1038 
 {
  
     public static void main(String[] args) throws IOException 
