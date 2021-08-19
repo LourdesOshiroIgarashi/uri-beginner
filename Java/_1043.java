@@ -12,7 +12,7 @@ e menor que a soma dos outros dois lados.
 
 import java.io.IOException;
 import java.util.Scanner;
-public class triangulo_1043 {
+public class _1043 {
  
     public static void main(String[] args) throws IOException 
     {
