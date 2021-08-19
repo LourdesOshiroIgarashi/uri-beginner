@@ -65,7 +65,7 @@ public class _1042
         
         System.out.printf("%d\n", a);
         System.out.printf("%d\n", b);
-        System.out.printf("%d\n\n", c);
+        System.out.printf("%d\n", c);
     }
  
 }
