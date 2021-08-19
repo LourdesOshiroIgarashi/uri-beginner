@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.io.IOException;
-public class teste_de_selecao_1_1035 {
+public class _1035 {
     public static void main(String args[]) throws IOException{
         Scanner sc=new Scanner(System.in);
         int a, b, c, d;
