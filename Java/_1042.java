@@ -1,7 +1,7 @@
 import java.io.IOException;
 import java.util.Scanner;
 
-public class sort_simples_1042 
+public class _1042 
 {
  
     public static void main(String[] args) throws IOException 
