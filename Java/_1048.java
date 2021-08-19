@@ -8,32 +8,32 @@ public class _1048 {
         double salario, reajuste, novo, percentual;
         salario = sc.nextDouble();
 
-        if (salario > 0 && salario < 400.00)
+        if (salario >= 0 && salario <= 400.00)
         {
-            novo = salario + (salario * 0.15);
+            percentual = 15;
         }
-        else if (salario < 800.00 && salario > 400.01)
-        {
-            novo = salario + (salario * 0.12);
+        else if (salario <= 800.00 && salario >= 400.01)
+        {   
+            percentual = 12;
         }
-        else if (salario < 1200.00 && salario > 800.01)
+        else if (salario <= 1200.00 && salario >= 800.01)
         {
-            novo = salario + (salario * 0.10);
+            percentual = 10;
         }
-        else if (salario < 2000.00 && salario > 1200.01)
+        else if (salario <= 2000.00 && salario >= 1200.01)
         {
-            novo = salario + (salario * 0.07);
+            percentual = 7;
         }
         else
         {
-            novo = salario + (salario * 0.04);
+            percentual = 4;
         }
         
+        novo = salario + (salario * 0.01 * percentual);
         reajuste = novo - salario;
-        percentual = (novo - salario) / salario * 100; 
 
-        System.out.printf("Novo salario: %.2f\n", salario);
+        System.out.printf("Novo salario: %.2f\n", novo);
         System.out.printf("Reajuste ganho: %.2f\n", reajuste);
-        System.out.printf("Em percentual: %d %\n", percentual);
+        System.out.printf("Em percentual: %.0f %%\n", percentual);
     }
 }
