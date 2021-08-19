@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.io.IOException;
 
-public class multiplos_1044 {
+public class _1044 {
     public static void main(String[] args) throws IOException 
     {
         Scanner sc = new Scanner(System.in);
